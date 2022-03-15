@@ -69,5 +69,5 @@ Please cite our paper if you use this code in your research work.
 
 MIT License
 
-## Contact for DFNets issues
+## Contact for GraphSNN issues
 Please contact me: asiri.wijesinghe@anu.edu.au if you have any questions / submit a Github issue if you find any bugs.
