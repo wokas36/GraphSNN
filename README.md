@@ -14,7 +14,7 @@
 * scipy (>=1.2.1)
 * cython (>=0.27.3)
 
-### Evaluation and dataset references for node classification
+### Evaluation on node classification
 
 	* Files description
 		* graphsn_standard_splits_node_classification.ipynb - node classification with standard splits (ipython notebook version)
@@ -30,7 +30,7 @@
 	* The experimental results show that our method consistently outperforms all state-of-the-art methods on all benchmark datasets.
 	* We consider the four popular message-passing GNNs: Graph Convolutional Networks (GCN), Graph Attention Networks (GAT), Graph Isomorphism Network (GIN), and GraphSAGE.
     
-### Evaluation and dataset references for large graph classification (OGB graph dataset)
+### Evaluation on large graph classification (OGB graph dataset)
 
 	* Files description
 		* ogbg_mol.ipynb - GraphSNN evaluation on OGB graph dataset (ipython notebook version)
@@ -39,7 +39,7 @@
         
 	* For large graph classification tasks, we use five large graph datasets from Open Graph Benchmark (OGB), including four molecular graph datasets (ogbg-molhiv, ogbg-moltox21, ogbg-moltoxcast and ogb-molpcba) and one protein-protein association network (ogbg-ppa). we also consider a variant, denoted as GraphSNN+VN, which performs the message passing over augmented graphs with virtual nodes in GraphSNN.
 
-### Evaluation and dataset references for small graph classification
+### Evaluation on small graph classification
     
 	* Files description
 		* graphsn_graph_classification.ipynb - GraphSNN cross validation (ipython notebook version)
