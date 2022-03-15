@@ -17,10 +17,10 @@
 ### Evaluation on node classification
 
 	* Files description
-		* graphsn_standard_splits_node_classification.ipynb - node classification with standard splits (ipython notebook version)
-		* graphsn_random_splits_node_classification.ipynb - node classification with random splits (ipython notebook version)
+		* graphsn_standard_splits_node_classification.ipynb - Node classification with standard splits
+		* graphsn_random_splits_node_classification.ipynb - Node classification with random splits
 		* utils.py - Data preprocessing and loading the data
-		* models.py - n-layer GNN model with GraphSNN_M for node classification
+		* models.py - N-layer GNN model with GraphSNN_M for node classification
 		* layers.py - GraphSNN_M layer
 
 	* For node classification tasks, we use four citation network datasets:
@@ -28,27 +28,29 @@
 		[2] NELL for semi-supervised entity classification
 
 	* The experimental results show that our method consistently outperforms all state-of-the-art methods on all benchmark datasets.
-	* We consider the four popular message-passing GNNs: Graph Convolutional Networks (GCN), Graph Attention Networks (GAT), Graph Isomorphism Network (GIN), and GraphSAGE.
+	* We consider the four popular message-passing GNNs: GCN, GAT, GIN, and GraphSAGE.
     
 ### Evaluation on large graph classification (OGB graph dataset)
 
 	* Files description
-		* ogbg_mol.ipynb - GraphSNN evaluation on OGB graph dataset (ipython notebook version)
+		* ogbg_mol.ipynb - GraphSNN evaluation on OGB graph dataset
 		* conv.py - GraphSNN convolution along the graph structure
 		* gnn.py - GraphSNN pooling function to generate whole-graph embeddings
         
-	* For large graph classification tasks, we use five large graph datasets from Open Graph Benchmark (OGB), including four molecular graph datasets (ogbg-molhiv, ogbg-moltox21, ogbg-moltoxcast and ogb-molpcba) and one protein-protein association network (ogbg-ppa). we also consider a variant, denoted as GraphSNN+VN, which performs the message passing over augmented graphs with virtual nodes in GraphSNN.
+	* For large graph classification tasks, we use five large graph datasets from Open Graph Benchmark (OGB), 
+	including four molecular graph datasets (ogbg-molhiv, ogbg-moltox21, ogbg-moltoxcast and ogb-molpcba) and one protein-protein association network (ogbg-ppa). 
+	We also consider a variant, denoted as GraphSNN+VN, which performs the message passing over augmented graphs with virtual nodes in GraphSNN.
 
 ### Evaluation on small graph classification
     
 	* Files description
-		* graphsn_graph_classification.ipynb - GraphSNN cross validation (ipython notebook version)
+		* graphsn_graph_classification.ipynb - GraphSNN cross validation
 		* graph_data.py - Data preprocessing and loading the data
 		* data_reader.py - Read the txt files containing all data of the dataset
 		* models.py - GNN model with multiple GraphSNN layers for constructing the readout function
 		* layers.py - GraphSNN layer
         
-	* We evaluate our model on standard stratified splits and random splits. We use eight benchmark datasets grouped in two categories. You can find all datasets for graph classification in data folder [path: Graph_Classification/data/].
+	* We evaluate our model on standard stratified splits and random splits. We use eight benchmark datasets grouped in two categories.
 		(1) 6 from bioinformatics datasets - MUTAG, PTC-MR, COX2, BZR, PROTEINS, and D&D
 		(2) 2 from social network datasets - IMDB-B and RDT-M5K
 	
@@ -70,4 +72,4 @@ Please cite our paper if you use this code in your research work.
 MIT License
 
 ## Contact for GraphSNN issues
-Please contact me: asiri.wijesinghe@anu.edu.au if you have any questions / submit a Github issue if you find any bugs.
+Please contact me: asiri.wijesinghe@anu.edu.au if you have any questions or submit a Github issue if you find any bugs.
