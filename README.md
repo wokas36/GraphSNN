@@ -27,7 +27,7 @@
 		[1] Cora, Citeseer and Pubmed for semi-supervised document classification
 		[2] NELL for semi-supervised entity classification
 
-	* The experimental results show that our method consistently outperforms all state-of-the-art methods on all benchmark datasets
+	* The experimental results show that our method consistently outperforms all state-of-the-art methods on all benchmark datasets.
 	* We consider the four popular message-passing GNNs: Graph Convolutional Networks (GCN), Graph Attention Networks (GAT), Graph Isomorphism Network (GIN), and GraphSAGE.
     
 ### Evaluation and dataset references for large graph classification (OGB graph dataset)
@@ -51,8 +51,6 @@
 	* We evaluate our model on standard stratified splits and random splits. We use eight benchmark datasets grouped in two categories. You can find all datasets for graph classification in data folder [path: Graph_Classification/data/].
 		(1) 6 from bioinformatics datasets - MUTAG, PTC-MR, COX2, BZR, PROTEINS, and D&D
 		(2) 2 from social network datasets - IMDB-B and RDT-M5K
-
-	* The experimental results show that our method consistently outperforms all state-of-the-art methods on all benchmark datasets
 	
 ## Citation
 
