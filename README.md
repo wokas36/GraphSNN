@@ -53,7 +53,6 @@
 		(2) 2 from social network datasets - IMDB-B and RDT-M5K
 
 	* The experimental results show that our method consistently outperforms all state-of-the-art methods on all benchmark datasets
-	* We provided subset of our datasets and we will release the full datasets and hyperparameter settings after acceptance.
 	
 ## Citation
 
